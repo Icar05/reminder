@@ -4,10 +4,9 @@ import android.content.Context;
 import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 
-import com.crashlytics.android.Crashlytics;
 import com.example.icar.my_notification.helpers.MyPrefManager;
 
-import io.fabric.sdk.android.Fabric;
+
 
 /**
  * Created by icar on 28.03.17.
@@ -23,7 +22,6 @@ public class CoreApplication  extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        Fabric.with(this, new Crashlytics());
         mInstance = this;
     }
 
