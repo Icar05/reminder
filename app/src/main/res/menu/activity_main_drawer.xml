@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@mipmap/ic_message_text"
+            android:title="@string/item_info"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@mipmap/ic_plus_box"
+            android:title="@string/item_create" />
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@mipmap/ic_folder_multiple"
+            android:title="@string/item_show_all" />
+        <item
+            android:id="@+id/nav_urgent"
+            android:icon="@mipmap/ic_message_alert"
+            android:title="@string/item_show_urgent" />
+        <item
+            android:id="@+id/nav_not_urgent"
+            android:icon="@mipmap/ic_file_document_box"
+            android:title="@string/item_show_not_urgent" />
+
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="@string/exit" />
+    </group>
+
+
+</menu>

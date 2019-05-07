@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Просто напоминания</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="choose_date">Выберите дату</string>
+    <string name="item_edit_title">Редактировать</string>
+    <string name="item_delete_title">Удалить</string>
+    <string name="ready">Готово</string>
+
+
+    <string name="exit">Выйти</string>
+
+
+    <string name="item_info">Про приложение</string>
+    <string name="item_create">Добавить заметку</string>
+    <string name="item_show_all">Просмотр всех</string>
+    <string name="item_show_urgent">Просмотр важных</string>
+    <string name="item_show_not_urgent">Просмотр не важных</string>
+
+    <string name="email">ipinguinlinuxoid@gmail.com</string>
+
+    <string name="deleted">Заметка удалена!!</string>
+
+    <string name="title_hint">Название заметки</string>
+    <string name="descriptions_hint">Текст заметки</string>
+
+    <string name="button_home">Домой</string>
+
+    <string name="text_mainTitle">
+        Просьба все замечания и рекомендации по работе приложения писать на ipinguinlinuxoid@gmail.com.
+        Благодарю.
+    </string>
+
+
+
+    <string name="date_for_datapicker">Дата: </string>
+
+    <string name="about_application_title">Про приложение</string>
+
+    <string name="update_item_title">"Редактирование: "</string>
+
+    <string name="no_data">Здесь пока еще ничего нет…</string>
+
+    <string name="not_important">Не важное</string>
+    <string name="important">Важное</string>
+    <string name="push_dedline">Нажми сюда для того чтобы задать конечный срок</string>
+    <string name="set_notification">Напоминать</string>
+    <string name="save">Сохранить</string>
+    <string name="done">Заметка создана!</string>
+    <string name="date_was_update">Данные по заметке обновлены!</string>
+
+    <string name="need_content_notif">Необходимо заполнить текст заметки!</string>
+    <string name="need_title_notif">"Необходимо заполнить название заметки!"</string>
+
+    <string name="new_notification">Новая заметка!</string>
+    <string name="see_notif">"Заметка № "</string>
+
+    <string name="all_important_notification">Все важные заметки</string>
+    <string name="all_not_important_notification">Все не важные заметки</string>
+    <string name="all_notification">"Все заметки"</string>
+
+    <string name="about">
+        Это андроид приложение поможет Вам создать заметки, редактировать их и выставлять время события.\n\n
+
+        По всем вопросам обращайтесь на почту ipinguin-linuxoid@gmail.com
+    </string>
+
+    <string name="max_lines_limited">Превышено допустимое количество рядков</string>
+    <string name="max_character_limited">Превышено допустимое количество символов</string>
+
+</resources>

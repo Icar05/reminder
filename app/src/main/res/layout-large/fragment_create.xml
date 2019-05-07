@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ScrollView
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.example.icar.my_notification.helpers.LimitedEditText
+                    android:background="@drawable/shape"
+                    android:id="@+id/etTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/title_hint"
+                    android:maxLines="1" />
+
+
+            </LinearLayout>
+
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioNotUrgent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_weight="1"
+                    android:text="@string/not_important" />
+
+                <RadioButton
+                    android:id="@+id/radioUrgent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/important" />
+
+            </RadioGroup>
+
+
+            <com.example.icar.my_notification.helpers.MyTextView
+                android:id="@+id/Term"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="7dp"
+                android:text="@string/push_dedline" />
+
+            <CheckBox
+                android:id="@+id/chb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="7dp"
+                android:text="@string/set_notification" />
+
+
+            <LinearLayout
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <com.example.icar.my_notification.helpers.LimitedEditText
+                    android:background="@drawable/shape"
+
+                    android:id="@+id/etDiscription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/descriptions_hint"
+                    android:inputType="textMultiLine"
+                    android:gravity="top"
+                    android:lines="5"
+                    android:maxLines="5" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:text="@string/save" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

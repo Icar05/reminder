@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Просто нагадування</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Налаштування</string>
+    <string name="choose_date">Оберіть дату</string>
+    <string name="item_edit_title">Редагувати</string>
+    <string name="item_delete_title">Видалити</string>
+    <string name="ready">Готово</string>
+
+
+    <string name="exit">Вийти</string>
+
+    <string name="deleted">Нотатка видалена!</string>
+
+
+    <string name="item_info">Про додаток</string>
+    <string name="item_create">Додати нотатку</string>
+    <string name="item_show_all">Перегляд усіх</string>
+    <string name="item_show_urgent">Перегляд важливих</string>
+    <string name="item_show_not_urgent">Перегляд не важливих</string>
+
+    <string name="email">ipinguinlinuxoid@gmail.com</string>
+
+    <string name="title_hint">Назва нотатки</string>
+    <string name="descriptions_hint">Текст нотатки</string>
+
+    <string name="button_home">До дому</string>
+
+    <string name="text_mainTitle">
+        Прохання про всі зауваження та рекомендації по роботі додатку писати на  ipinguinlinuxoid@gmail.com.
+        Дякую.
+    </string>
+
+
+
+    <string name="date_for_datapicker">Дата: </string>
+
+    <string name="about_application_title">Про додаток</string>
+
+    <string name="update_item_title">"Редагування: "</string>
+
+    <string name="no_data">Тут поки що нічого немає…</string>
+
+    <string name="not_important">Не важливе</string>
+    <string name="important">Важливе</string>
+    <string name="push_dedline">Натисни сюди щоб задати кінцевий строк</string>
+    <string name="set_notification">Нагадувати</string>
+    <string name="save">Зберегти</string>
+    <string name="done">Нотатку створено!</string>
+    <string name="date_was_update">Данні по нотатці оновлено!</string>
+
+    <string name="need_content_notif">Необхідно заповнити текст нотатки!</string>
+    <string name="need_title_notif">"Необхідно заповнити назву нотатки!"</string>
+
+    <string name="new_notification">Нове нагадування!</string>
+    <string name="see_notif">"Нотатка № "</string>
+
+    <string name="all_important_notification">Всі важливі нотатки</string>
+    <string name="all_not_important_notification">Всі неважливі нотатки</string>
+    <string name="all_notification">"Всі нотатки"</string>
+
+    <string name="about">
+        Цей андроід додаток допоможе Вам створювати нотатки, редагувати та виставляти час події.\n\n
+
+        За всіми питаннями звертатись на пошту ipinguin-linuxoid@gmail.com
+    </string>
+
+
+    <string name="max_lines_limited">Перевищена допустима кількість рядків</string>
+    <string name="max_character_limited">Перевищена допустима кількість символів</string>
+
+</resources>

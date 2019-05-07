@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activation_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/note2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+
+        <com.example.icar.my_notification.helpers.MyTextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"
+            android:text="@string/about_application_title"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <com.example.icar.my_notification.helpers.MyTextView
+            android:id="@+id/item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:textColor="@color/colorBlack"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
